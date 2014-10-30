@@ -16,6 +16,9 @@
     - libgeos-dev
     - libproj-dev
     - cython
+    - python-pyke
+    - libudunits2-dev
+    
 
 - name: Work related pip packages
   pip: name={{ item }}
@@ -25,4 +28,6 @@
     - pyshp
     - shapely
     - cartopy
-    - iris
+    - pandas
+    - geopandas
+    - biggus
