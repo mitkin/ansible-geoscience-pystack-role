@@ -12,9 +12,17 @@
     - python-gdal
     - libhdf5-dev
     - libnetcdf-dev
+    - libgdal-dev
+    - libgeos-dev
+    - libproj-dev
+    - cython
 
 - name: Work related pip packages
   pip: name={{ item }}
   with_items:
     - netCDF4
     - pyresample
+    - pyshp
+    - shapely
+    - cartopy
+    - iris
