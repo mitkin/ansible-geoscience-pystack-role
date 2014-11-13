@@ -26,6 +26,7 @@
     - netCDF4
     - pyresample
     - pyshp
+    - sphinx
     - shapely
     - cartopy
     - pandas
